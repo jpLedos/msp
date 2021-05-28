@@ -1,0 +1,195 @@
+body{
+  max-width: 1000px;
+  background-color: #cee8eb75;
+  font-size:16px;
+}
+
+h1 , h2, h3 {
+  color : #00265e;
+  margin: auto ; 
+  text-align: center;
+  z-index: 1;
+  padding: 8px;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+h3 {
+  font-size: 1rem ;
+  font-weight: 700;
+}
+h4 {
+  font-size: 0.6rem ;
+  font-weight: 800;
+}
+
+a {
+  font-size: 12px;
+  color :#2D728D;
+}
+.btn {
+  border-radius: 10px;
+  margin-bottom: 3px;
+}
+
+.background-title {
+  background: linear-gradient(40deg,  #7DBED8, #2D728D);
+  height : 80px;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.background-footer {
+  background: linear-gradient(270deg,  #7DBED8, #2D728D);
+  height : 80px;
+  border-radius: 0px 0px  25px 25px;
+}
+
+.bandeau {
+  display:grid; 
+  grid-template-columns: 20% 80%; 
+  justify-content: space-between;
+}
+
+.logo { /* hauteur 120% pour amener le haut dans le titre + position relative -20%*/
+  position: relative;
+  top:-20%;
+  grid-column: 1 ; 
+  width:130%; 
+  height:120%;
+}
+
+.bandeau-picture {
+  grid-column: 2; 
+  justify-self: end;
+  width:100%;
+  height:100%;
+  
+}
+
+.logo-social {
+  height: 35px;
+}
+
+.logo-social :hover{
+  height: 20px;
+}
+
+
+section {
+  background-color: #cce2eb9c;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  border: #7DBED8 solid ;
+}
+
+p {
+  font-family: Bahnschrift;
+  font-size: 1rem;
+  text-indent: 1.5em;
+  color :#2D728D;
+  padding-top : 12px;
+  padding-left: 20px;
+  padding-right: 16px;
+  text-align: justify;
+  font-weight: 300;
+}
+.address {
+  text-align: left;
+  text-indent: 0%;
+}
+
+.caroussel {
+  height:180px;
+  border-radius: 25px;
+}
+.carousel-item {
+margin-left: 5rem;
+}
+
+
+
+.card-pro {
+  width: 400px;
+
+  border :#7DBED8;
+  border-radius: 25px;
+  margin : 5px;
+  background: linear-gradient(165deg,  #7dbed8c4,  #7dbed860);
+  display:grid;
+  grid-template-columns: 25% 25% 50%;
+
+  grid-template-areas: 
+  "qualification qualification nom"
+  "picture tel-title tel"
+  "picture horaires-title horaires"
+  "picture honoraires-title honoraires"
+  ". . link-online-booking";
+}
+
+.card-qualification {
+  grid-area:qualification ;
+  font-weight: bold;
+  color: #00265e;
+  font-size: 1.1em;
+}
+.card-nom {
+  grid-area: nom;
+  font-size: 1.0em;
+  color: #00265e;
+  font-weight: 500;
+}
+.photo-profil {
+  height: 75px;
+  width: 75px;
+  grid-area: picture;
+}
+
+.tel-title, .horaires-title , .honoraires-title {
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #0a5370;
+  text-decoration:underline ;
+}
+
+.tel, .horaires, .honoraires {
+  font-size: 0.8em;
+  font-style: italic;
+  font-weight: 500;
+  color: #005475;
+}
+.tel-title{
+  grid-area: tel-title;
+}
+.tel{
+  grid-area: tel;
+}
+
+.horaires-title{
+  grid-area: horaires-title;
+}
+.horaires{
+  grid-area: horaires;
+}
+.teltitle{
+  grid-area: tel;
+}
+.honoraires-title{
+  grid-area: honoraires-title;
+}
+.honoraires{
+  grid-area: honoraires;
+}
+.honoraires-title{
+  grid-area: honoraires-title;
+}
+.link-online-booking{
+  grid-area:  link-online-booking ;
+}
+
+
+
