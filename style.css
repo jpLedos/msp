@@ -104,14 +104,23 @@ p {
 }
 
 .caroussel {
-  height:180px;
+  height:200px;
   border-radius: 25px;
 }
 .carousel-item {
-margin-left: 5rem;
+  margin-left:33%;
+  
 }
 
+.card {
+  border :#7DBED8;
+  border-radius: 25px;
+  margin : 3px;
 
+  background: linear-gradient(180deg,  #7DBED8,#bacfd870);
+  ;
+
+}
 
 .card-pro {
   width: 400px;
@@ -119,7 +128,7 @@ margin-left: 5rem;
   border :#7DBED8;
   border-radius: 25px;
   margin : 5px;
-  background: linear-gradient(165deg,  #7dbed8c4,  #7dbed860);
+  background: linear-gradient(165deg,  #7dbed8c4,  #7b8c92);
   display:grid;
   grid-template-columns: 25% 25% 50%;
 
