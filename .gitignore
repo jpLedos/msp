@@ -1,0 +1,5 @@
+*.pdf
+maquette/
+*.xlsx
+*.txt
+!robot.txt
