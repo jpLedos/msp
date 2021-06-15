@@ -206,4 +206,34 @@ p {
 }
 
 
+.btn-left {
+  animation : 1s ease-in 0s  leftToRight
+}
+
+
+.btn-right {
+  animation : 1s ease-in 0s  rightToLeft
+}
+
+
+
+@keyframes leftToRight {
+  from {
+    transform: translateX(-100px);
+  }
+  to{
+    transform: translateX(0%);
+  }
+}
+
+
+
+@keyframes rightToLeft{
+  from {
+    transform: translateX(100px);
+  }
+  to{
+    transform: translateX(0%);
+  }
+}
 
